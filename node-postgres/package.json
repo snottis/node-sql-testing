@@ -1,0 +1,14 @@
+{
+  "name": "pg-test",
+  "version": "0.1.0",
+  "description": "pg test for bachelor's thesis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sauli Nevalainen",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^8.6.0"
+  }
+}
