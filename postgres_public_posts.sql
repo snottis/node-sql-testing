@@ -10,6 +10,8 @@ CREATE TABLE posts (
   PRIMARY KEY (id)
 );
 
+ALTER SEQUENCE posts_id_seq RESTART WITH 10001;
+
 insert into public.posts (id, author_id, title, description, content, date)
 values  (1, 9, 'Quod dolore suscipit tempore laboriosam sequi sit.', 'Perspiciatis eaque sit voluptatem eveniet exercitationem reprehenderit aperiam. A maxime aut facilis rerum qui aliquam rerum.', 'Beatae autem modi id est tempore voluptate illum sunt. Voluptas iste aliquid et error molestiae consectetur quo. Labore libero dicta quo. Iusto nihil ut placeat qui et.', '1991-01-31'),
         (2, 5, 'Repudiandae et quo magnam molestiae modi iusto animi.', 'Quibusdam minus ab tenetur autem. Nihil illum quisquam quia itaque. Qui voluptas tempore quisquam occaecati.', 'Id nesciunt ducimus ut quisquam eum. Voluptas architecto delectus tenetur voluptas. Amet nemo quam nulla. Repudiandae commodi eum quaerat sed nostrum dolore aspernatur.', '2003-07-24'),

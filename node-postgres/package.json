@@ -4,7 +4,10 @@
   "description": "pg test for bachelor's thesis",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "read": "node read.js && bash ../reset-db.sh",
+    "update": "node update.js && bash ../reset-db.sh",
+    "create": "node create.js && bash ../reset-db.sh",
+    "delete": "node delete.js && bash ../reset-db.sh"
   },
   "author": "Sauli Nevalainen",
   "license": "ISC",

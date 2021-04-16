@@ -1,0 +1,1 @@
+docker-compose exec -T "postgres" psql postgres -d postgres -f /docker-entrypoint-initdb.d/create_tables.sql
